@@ -1,0 +1,84 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.sticky-note {
+    background: #b5665a;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    color: white;
+
+}
+
+
+.head  {
+    position: relative;
+    left: 25%;
+}
+
+.dot {
+    position: relative;
+    left: 20%;
+    top: 2%;
+    width: 55%;
+    height: 1px;
+    background: white;
+    color: white;
+}
+
+.down {
+    position: relative;
+    top: 5%; */
+/* } */
+
+.sticky-note {
+    position: absolute;
+    background-color: rgb(230, 153, 85);
+    padding: 20px;
+    width: 15rem;
+    height: 10rem;
+    user-select: none;
+  }
+
+  .lorem {
+    font-size: 12px;
+  }
+
+  .stick1 {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .stick {
+    font-size: 17px;
+  }
+
+  .delete, .delete1 {
+    position: absolute;
+    left: 15rem;
+    top: 10px;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+
+  .sticky-note1 {
+    position: absolute;
+    background-color: rgb(88, 209, 142);
+    padding: 20px;
+    width: 15rem;
+    height: 10rem;
+    user-select: none;
+  }
